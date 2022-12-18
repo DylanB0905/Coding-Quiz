@@ -11,9 +11,9 @@ This is a basic coding quiz made with just html css and javascript. The user can
 
 
 
-[A deployed version can be viewed here.](https://burnsjatetext.herokuapp.com/)
+[A deployed version can be viewed here.](https://dylanb0905.github.io/Coding-Quiz/)
 
-See the application's GitHub repository [here.](https://github.com/DylanB0905/pwa-text-editor)
+See the application's GitHub repository [here.](https://github.com/DylanB0905/Coding-Quiz)
 
   ---
   ## Table of Contents
