@@ -16,8 +16,8 @@ var questions = [{
 },
 {
     title: "What is the type of loop that continues through a block of code as long as the specified condition remains TRUE?",
-    choices: ["Else Loop", "While Loop", "Conditional Loop", "Foor Loop"],
-    answer: "for Loop"
+    choices: ["Else Loop", "While Loop", "Conditional Loop", "For Loop"],
+    answer: "For Loop"
 },
 {
     title: "Which of the following functions let you combine the text of two strings and return a new string?",
