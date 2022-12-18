@@ -1,4 +1,55 @@
-#question-1, #question-2, #question-3, #question-4, #question-5, #score-page, #save-score {
-    display: none;
+
+.right {
+    float: right;
 }
 
+.left {
+    float: left;
+}
+
+#nav {
+    display: block;
+    background-color:cornflowerblue;
+    display: inline-block;
+    width: 98vw;
+    border: 3px solid lightblue;
+    border-radius: 5px;
+    margin: 6px;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+#quizBody {
+    text-align: center;
+    padding: 12vh;
+}
+
+h4 {
+    padding: 10px 8px 10px 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    border: none;
+    background-color: #e64e79;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 16px 10px 16px;
+    font-size: 17px;
+    margin: 4px;
+}
+
+button:hover {
+    transition-duration: 0.4s;
+    background-color: #ff80a4;
+}
+
+#quiz {
+    text-align: center;
+}

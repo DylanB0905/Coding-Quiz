@@ -6,96 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Development Coding Quiz!</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    
 </head>
 
 <body>
-    <header>
-        <Button id="high-score-btn">View High Scores</Button>
-        <p id="timer"></p>
-    </header>
-    
-    <section class="starting-page">
-        <h1 id="start-title">Coding Quiz</h1>
-        <p id="start-para">Try and answer all the questions correctly before the time runs out!
-                For every question you get wrong, 10 seconds will be removed from the clock.
-        </p>
-        <button id="start-btn">Start Quiz!</button>
-    </section>
-
-    <div class="questions">
-    
-        <section id="question-1">
-            <h2 class="question">What does HTML stand for?</h2>
-                <ol id="q1-choices">
-                    <il class="choice-1"><button>How to mark lines</button></il>
-                    <il class="choice-2"><button>Hyper text Markup Language</button></il>
-                    <il class="choice-3"><button>Hyperlink and texts Markup Language</button></il>
-                    <il class="choice-4"><button>Ham Tomato Mayo Lettuce</button></il>
-                </ol>
-        </section>
-
-        <section id="question-2">
-            <h2 class="question">What is the correct HTML tag for creating a paragraph?</h2>
-                <ol id="q2-choices">
-                    <il class="choice-1"><button>&lt;p&gt;</button></il>
-                    <il class="choice-2"><button>&lt;para&gt;</button></il>
-                    <il class="choice-3"><button>&lt;paragraph&gt;</button></il>
-                    <il class="choice-4"><button>&lt;pg&gt;</button></il>
-                </ol>
-        </section>
-
-        <section id="question-3">
-            <h2 class="question">What does CSS stand for?</h2>
-                <ol id="q3-choices">
-                    <il class="choice-1"><button>Computer Sync Sheet</button></il>
-                    <il class="choice-2"><button>Cheese Sardine Salad</button></il>
-                    <il class="choice-3"><button>Cascading Style Sheets</button></il>
-                    <il class="choice-4"><button>Creative Style Sheets</button></il>
-                </ol>
-        </section>
-
-        <section id="question-4">
-            <h2 class="question">What property in CSS is used to change the right margin of an element?</h2>
-                <ol id="q4-choices">
-                    <il class="choice-1"><button>indent-right</button></il>
-                    <il class="choice-2"><button>margin-right</button></il>
-                    <il class="choice-3"><button>padding-right</button></il>
-                    <il class="choice-4"><button>float-left</button></il>
-                </ol>
-        </section>    
-
-        <section id="question-5">
-            <h2 class="question">I javascript, how would you make a function repeat until a set finish?</h2>
-                <ol id="q5-choices">
-                    <il class="choice-1"><button>if statement</button></il>
-                    <il class="choice-2"><button>repeat statement</button></il>
-                    <il class="choice-3"><button>function repeat</button></il>
-                    <il class="choice-4"><button>for loop</button></il>
-                </ol>
-        </section>        
-
+    <div id="nav">
+        
+        <div class="left">
+            <a onclick="getScore()" href="#"><h4 >View Highscore</h4></a>
+        </div>
+        
+        <div class="right">
+            <h4>Time: <span id="timeLeft">0</span></h4>
+        </div>
     </div>
     
-    <section id="save-score">
-        <h3>ALL DONE!</h3>
-        <p>Type your initials to save your score!</p>
-        <input type="text" id="user-initials">
-    </section>
-    
-    <section id="score-page">
-        <h3>Previously Recorded Scores!</h3>
-        <ol>
-
-        </ol>
-    </section>     
-
-          
-
-
-
-
-
-
-    <script rel="javascript" src="./assets/js/script.js"></script>
+    <div id="quiz">
+        <div id="quizBody">      
+            <h1>   
+                JavaScript Quiz!
+            </h1>
+            <h3>
+                Click to play!   
+            </h3>
+            <button onclick="startTest()">Start!</button>
+        </div>
+    </div>
 </body>
-</html>
+<footer>
+    <script rel="javascript" src="./assets/js/script.js"></script>
+</footer>
+</html>>
